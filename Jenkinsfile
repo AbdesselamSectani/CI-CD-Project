@@ -20,7 +20,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Sectani/CI-CD-Project',
+                    url: 'https://github.com/AbdesselamSectani/CI-CD-Project',
                     credentialsId: 'Github-Access'
             }
         }
